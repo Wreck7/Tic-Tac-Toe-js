@@ -24,8 +24,8 @@ const winPatterns = [
             box.innerText = "X"
             turnO = true;
         }
-        box.disabled = true;
-        count++;
+        box.disabled = true;// this is for non-overwrite
+        count++;// count for game draw
         let isWinner = checkWinner();
         if (count === 9 && !isWinner) {
             gameDraw();
