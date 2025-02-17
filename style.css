@@ -4,8 +4,9 @@
 }
 /* body */
 body {
-    padding-top: 20px;
+    margin-top: 25px;
     background-color: #8D818C;
+    color: #2e5a4c;
     text-align: center;
     font-family: 'Geneva','sans-serif', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana,;
 }
@@ -22,7 +23,7 @@ body {
 }
 /* container */
 .container {
-    height: 80vh;
+    height: 77vh;
     display: flex;
     justify-content: center;
     align-items: center;
